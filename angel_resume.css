@@ -1,0 +1,504 @@
+
+/* Type selectors */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Arial';
+  display: inline;
+  color: rgb(99, 115, 131);
+}
+
+header {
+  padding: 0 0 300px 0;
+  text-align: center;
+  background-color: rgb(0, 153, 204);
+  border-bottom: 2px solid rgba(0,0,0, .8);
+  width: 100%;
+  display: inline-block;
+}
+
+header img {
+  height: 500px;
+  width: 500px;
+  margin: 180px auto auto auto;
+}
+
+header h1 {
+  font-size: 100px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+  weight: normal;
+  margin-top: -70px;
+
+}
+
+header h2 {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+  margin-top: -70px;
+}
+
+
+br {
+  display: block; /* makes it have a width */
+  content: ""; /* clears default height */
+  margin-bottom: 0px; /* change this to whatever height you want it */
+}
+
+
+button {
+  background-color: rgb(0, 153, 204);
+  border: 1.6px solid white;
+  color: rgb(255, 255, 255);
+  display: inline;
+  font-weight: bold;
+  width: 90px;
+}
+
+td {
+    color: white;
+    border: 2px solid rgba(246, 240, 188, 1);
+}
+
+.date-wrap {
+    color: rgb(0, 153, 204);
+}
+
+.position-wrap {
+  color: rgb(255, 140, 0);
+  margin-top: 0px;
+}
+/*Link Selectors*/
+
+a:link {
+  text-decoration: none;
+  color: white ;
+}
+
+a:visited {
+  color: none;
+}
+
+a:hover {
+  color: none;
+}
+
+a:active {
+  color: none;
+}
+
+/*Class Selectors*/
+
+.menu-links {
+  color: rgb(255, 255, 255);
+}
+
+:focus {
+  color: #20B2AA;
+  background-color: white;
+}
+
+.section-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+  color: rgb(132,132, 132);
+}
+
+
+.main-image {
+  height: 170px;
+  width: 170px;
+  margin-left: 75px;
+  margin-top: 35px;
+  float: left;
+  display: inline-block;
+  border: solid 5px rgb(9, 9, 42);
+  border-radius: 50%
+}
+
+.about-info {
+  width: 300px;
+  display: block;
+  margin: auto;
+}
+
+
+.about-wrap-color {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 150px;
+  display: inline-block;
+  background-color: rgb(62, 62, 62);
+  border-bottom: 5px solid rgba(0, 0, 0, .8);
+}
+
+.company-wrap-color {
+  width: 100%;
+  display: inline-block;
+  border-bottom: 5px solid rgba(0,0,0, .8);
+  padding-bottom: 150px;
+}
+
+.edu-wrap-color {
+  width: 100%;
+  display: inline-block;
+  border-bottom: 5px solid rgba(0,0,0, .8);
+  padding-bottom: 150px;
+}
+
+.skills-wrap-color {
+  background-color: rgb(62, 62, 62);
+  width: 100%;
+  display: inline-block;
+  border-bottom: 5px solid rgba(0,0,0, .8);
+  padding-bottom: 150px;
+}
+.edu-image {
+  display: inline-block;
+  clear: both;
+  overflow: hidden;
+  margin-top: 75px;
+  padding-left: 27px;
+}
+
+.section-edu {
+  float: right;
+  display: inline-block;
+  width: 350px;
+  padding-right: 60px;
+  color: rgb(115, 115, 115);
+}
+
+
+.spec-img {
+  float: left;
+  margin-left: 30px;
+  width: 200px;
+  height:200px;
+}
+
+.spec-sec {
+  float: right;
+  display: inline;
+  width: 400px;
+}
+
+.xerox-img {
+  display: inline-block;
+  clear: both;
+  overflow: hidden;
+  padding-left: 24px;
+  float:left;
+  margin-top: 24px;
+  width: 230px;
+  height: 122px;
+}
+
+.xerox-sec {
+  float: right;
+  display: inline;
+  width: 400px;
+}
+
+.micro-img {
+  width: 230px;
+  height: 92px;
+  overflow: hidden;
+  display: inline-block;
+  clear: both;
+  padding-top: 50px;
+  padding-left: 8px;
+  float: left;
+}
+
+.micro-sect {
+  float: right;
+  display: inline;
+  width: 400px;
+}
+
+.left-content-skills {
+  display: inline-block;
+  text-align: center;
+  clear: both;
+  width: 400px;
+  overflow: hidden;
+  margin: auto;
+
+
+}
+
+.right-content-skills {
+  float: none;
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  width: 400px;
+}
+
+.lower-sec {
+  background-color: rgb(0, 153, 204);
+  color: rgba(246, 240, 188, 1);
+  display: inline-block;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.button-bottom {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+
+.fa {
+  font-size: 30px !important;
+  color: rgb(255, 255, 255);
+}
+.fa-at {
+  text-align: left;
+  display: block;
+}
+
+.fa-linkedin {
+  text-align: left;
+  display: inline-block;
+}
+
+.link {
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+  font-family: "Arial";
+  font-weight: bold;
+  text-align: left;
+}
+
+/* ID Selectors */
+#about {
+  text-align: center;
+  line-height: 1.5;
+  width: 500px;
+  padding-top: 90px;
+  overflow: auto;
+  border-radius: 2%;
+  margin: auto;
+}
+
+#about h2 {
+  color: rgb(0, 153, 204);
+}
+
+#about p {
+  color: rgb(215, 215, 215);
+}
+
+
+#company-list, #education, #technical-skills {
+  color: rgb(99, 115, 131);
+  text-align:  left;
+  line-height: 1.5;
+  width: 700px;
+  margin-top: 100px;
+  padding: 10px;
+  overflow: auto;
+  margin: auto;
+}
+
+#technical-skills {
+  width: 700px;
+  margin: auto;
+  text-align: center;
+  color: rgb(215, 215, 215);
+}
+
+#technical-skills h2 {
+  color: rgb(0, 153, 204);
+}
+
+#technical-skills h3 {
+  font-size: 25px;
+}
+
+#technical-skills h4 {
+  border: 2px solid rgb(215, 215, 215);
+  display: inline-block;
+  padding: 2px;
+}
+
+#menu {
+  font-family: "Arial";
+  text-align: center;
+  background-color: rgb(0, 153, 204);
+  font-size: 15px;
+  font-weight: bold;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  padding: 20px 0 20px 0;
+  position: fixed;
+  width: 100%;
+}
+
+#contact-sec {
+  text-align: left;
+  background-color: rgb(0, 153, 204);
+  color: rgb(215, 215, 215);
+  width: 270px;
+  margin: auto;
+  margin-top: 50px;
+}
+#contact-sec h2 {
+  text-align: center;
+}
+
+
+/* media */
+
+@media ( max-width: 700px) {
+     header img {
+       display: block;
+       text-align: justify;
+       margin-left: auto;
+       margin-right: auto;
+     }
+
+    .about-wrap-color {
+       display: inline-block;
+       width: 100%;
+       padding-bottom: 200px;
+       border-bottom: 5px solid rgba(0, 0, 0, .8);
+  }
+    .company-wrap-color {
+      text-align: center;
+    }
+
+      .spec-img {
+         float: none;
+         width: 150px;
+         height: 150px;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+    }
+
+      .spec-sec {
+         float: none;
+         width: 300px;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+    }
+
+      .xerox-img {
+         clear: both;
+         overflow: hidden;
+         float: none;
+         width: 230px;
+         height: 122px;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+    }
+
+      .xerox-sec {
+         float: none;
+         width: 300px;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+    }
+
+      .micro-img {
+         width: 230px;
+         height: 92px;
+         overflow: hidden;
+         clear: both;
+         padding-top: 0px;
+         padding-left: 0px;
+         float: none;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+    }
+
+       .micro-sect {
+         float: none;
+         width: 300px;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+    }
+
+      .edu-image {
+        clear: both;
+        overflow: hidden;
+        margin-top: 75px;
+        padding-left: 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+      .section-edu {
+        float: none;
+        width: 300px;
+        padding-right: 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+      .left-content-skills {
+        display: block;
+        overflow: hidden;
+        clear: both;
+        overflow: none;
+        margin: auto;
+        width: 300px;
+        text-align: center;
+    }
+
+      .right-content-skills {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 260px;
+        text-align: center;
+
+    }
+
+       #about {
+         text-align:  center;
+         line-height: 1.5;
+         width: 400px;
+         overflow: auto;
+         margin: auto;
+         border-radius: 0;
+  }
+
+      #company-list, #education, #technical-skills {
+        text-align:  left;
+        width: 400px;
+        line-height: 1.5;
+        margin-top: 100px;
+        padding: 10px;
+        overflow: auto;
+        margin: auto;
+  }
+
+      #technical-skills {
+        color: rgb(215, 215, 215);
+      }
+
+      #technical-skills h4{
+        border: 2px solid rgb(215, 215, 215);
+        display: inline-block;
+        padding: 2px;
+      }
+}
